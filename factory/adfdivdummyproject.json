@@ -1,0 +1,15 @@
+{
+	"name": "adfdivdummyproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b8556048-0e7a-4b09-ac95-851a8517825f",
+		"tenantId": "91c77fab-74cf-4be0-ba02-29eb91cfb771"
+	}
+}
