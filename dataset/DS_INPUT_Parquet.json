@@ -1,0 +1,19 @@
+{
+	"name": "DS_INPUT_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_INPUT_Parquet",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "multiplecsvoutput"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
