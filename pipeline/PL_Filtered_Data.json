@@ -80,7 +80,12 @@
 														"type": "BinarySource",
 														"storeSettings": {
 															"type": "AzureBlobStorageReadSettings",
-															"recursive": true
+															"recursive": true,
+															"wildcardFileName": {
+																"value": "@item().name",
+																"type": "Expression"
+															},
+															"deleteFilesAfterCompletion": false
 														},
 														"formatSettings": {
 															"type": "BinaryReadSettings"
