@@ -1,0 +1,17 @@
+{
+	"name": "DS_INPUT_MULTI_FILETYPE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_INPUT_MULTI_FILETYPE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "multiplecsvoutput"
+			}
+		}
+	}
+}

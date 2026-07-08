@@ -1,0 +1,17 @@
+{
+	"name": "DS_OUPUT_TXT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_OUPUT_TXT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "outputtxt"
+			}
+		}
+	}
+}
