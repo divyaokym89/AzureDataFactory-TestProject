@@ -1,0 +1,22 @@
+{
+	"name": "DS_CSV_Filtered_Output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_CSV_Filtered_Output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "outputfiltered"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
