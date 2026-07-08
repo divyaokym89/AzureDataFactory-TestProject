@@ -1,0 +1,81 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdivdummyproject"
+		},
+		"DS_OUTPUT_PDF_accountKey": {
+			"value": ""
+		},
+		"LS_BLOB_CSV_connectionString": {
+			"value": ""
+		},
+		"LS_CSV_INPUT_New_accountKey": {
+			"value": ""
+		},
+		"LS_INPUT_MULTI_FILETYPE_accountKey": {
+			"value": ""
+		},
+		"LS_MULTI_CSV_BLOB_connectionString": {
+			"value": ""
+		},
+		"LS_OUPUT_TXT_accountKey": {
+			"value": ""
+		},
+		"LS_OUTPUT_CSV_New_accountKey": {
+			"value": ""
+		},
+		"LS_OUTPUT_PDF_New_accountKey": {
+			"value": ""
+		},
+		"LS_SP_SQL_MIGRATION_password": {
+			"value": ""
+		},
+		"LS_SQL_MIGRATION_password": {
+			"value": ""
+		},
+		"DS_OUTPUT_PDF_properties_typeProperties_url": {
+			"value": "https://adlsdivdummyproject.dfs.core.windows.net/"
+		},
+		"LS_CSV_INPUT_New_properties_typeProperties_url": {
+			"value": "https://adlsdivdummyproject.dfs.core.windows.net/"
+		},
+		"LS_INPUT_MULTI_FILETYPE_properties_typeProperties_url": {
+			"value": "https://adlsdivdummyproject.dfs.core.windows.net/"
+		},
+		"LS_OUPUT_TXT_properties_typeProperties_url": {
+			"value": "https://adlsdivdummyproject.dfs.core.windows.net/"
+		},
+		"LS_OUTPUT_CSV_New_properties_typeProperties_url": {
+			"value": "https://adlsdivdummyproject.dfs.core.windows.net/"
+		},
+		"LS_OUTPUT_PDF_New_properties_typeProperties_url": {
+			"value": "https://adlsdivdummyproject.dfs.core.windows.net/"
+		},
+		"LS_SP_SQL_MIGRATION_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SP_SQL_MIGRATION_properties_typeProperties_database": {
+			"value": "SQLMIGRATION"
+		},
+		"LS_SP_SQL_MIGRATION_properties_typeProperties_userName": {
+			"value": "divya_db"
+		},
+		"LS_SQL_MIGRATION_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SQL_MIGRATION_properties_typeProperties_database": {
+			"value": "SQLMIGRATION"
+		},
+		"LS_SQL_MIGRATION_properties_typeProperties_userName": {
+			"value": "divya_db"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
