@@ -19,7 +19,9 @@
 						"referenceName": "DS_INPUT_ALLDATA",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"childItems"
+					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false
@@ -75,18 +77,13 @@
 												"userProperties": [],
 												"typeProperties": {
 													"source": {
-														"type": "ParquetSource",
+														"type": "BinarySource",
 														"storeSettings": {
-															"type": "AzureBlobFSReadSettings",
-															"recursive": true,
-															"wildcardFileName": {
-																"value": "@item().name",
-																"type": "Expression"
-															},
-															"enablePartitionDiscovery": false
+															"type": "AzureBlobStorageReadSettings",
+															"recursive": true
 														},
 														"formatSettings": {
-															"type": "ParquetReadSettings"
+															"type": "BinaryReadSettings"
 														}
 													},
 													"sink": {
@@ -99,7 +96,7 @@
 												},
 												"inputs": [
 													{
-														"referenceName": "DS_INPUT_Parquet",
+														"referenceName": "DS_InputFiles",
 														"type": "DatasetReference"
 													}
 												],
