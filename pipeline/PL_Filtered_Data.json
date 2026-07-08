@@ -131,7 +131,7 @@
 												"userProperties": [],
 												"typeProperties": {
 													"source": {
-														"type": "ParquetSource",
+														"type": "BinarySource",
 														"storeSettings": {
 															"type": "AzureBlobFSReadSettings",
 															"recursive": true,
@@ -139,10 +139,10 @@
 																"value": "@item().name",
 																"type": "Expression"
 															},
-															"enablePartitionDiscovery": false
+															"deleteFilesAfterCompletion": false
 														},
 														"formatSettings": {
-															"type": "ParquetReadSettings"
+															"type": "BinaryReadSettings"
 														}
 													},
 													"sink": {
@@ -155,7 +155,7 @@
 												},
 												"inputs": [
 													{
-														"referenceName": "DS_INPUT_Parquet",
+														"referenceName": "DS_INPUT_ALLDATA",
 														"type": "DatasetReference"
 													}
 												],
