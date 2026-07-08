@@ -1,0 +1,17 @@
+{
+	"name": "DS_INPUT_ALLDATA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MULTIPLETOSINGLE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "multiplecsvoutput"
+			}
+		}
+	}
+}
