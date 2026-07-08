@@ -79,7 +79,7 @@
 													"source": {
 														"type": "BinarySource",
 														"storeSettings": {
-															"type": "AzureBlobStorageReadSettings",
+															"type": "AzureBlobFSReadSettings",
 															"recursive": true,
 															"wildcardFileName": {
 																"value": "@item().name",
@@ -101,7 +101,7 @@
 												},
 												"inputs": [
 													{
-														"referenceName": "DS_InputFiles",
+														"referenceName": "DS_INPUT_ALLDATA",
 														"type": "DatasetReference"
 													}
 												],
